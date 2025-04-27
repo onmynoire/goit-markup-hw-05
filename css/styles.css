@@ -657,3 +657,12 @@ border: none;
 .footer-svg {
     margin-left: 16px;
 }
+
+.modal-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-svg:hover, .modal-svg:focus {
+fill: #ffffff
+}
