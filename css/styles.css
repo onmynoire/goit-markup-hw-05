@@ -591,7 +591,14 @@ padding: 72px 24px 24px 24px;
 .modal-button:hover, .modal-button:focus {
 background-color: #404bbf;
 border: none;
+}
 
+.modal-svg {
+    fill: #000000;
+}
+
+.modal-button:hover .modal-svg {
+    fill: #fff;
 }
 
 .modal-p {
@@ -790,6 +797,13 @@ fill: #ffffff
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-send:hover, .modal-button-send:focus {
-    fill: #ffffff;
+input[type="checkbox"]:checked + .modal-span{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+
+}
+
+.modal-span-a {
+    color: #4d5ae5;
 }
