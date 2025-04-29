@@ -528,6 +528,7 @@ border-top: none;
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
 
+    pointer-events: auto;
     position: fixed;
     top: 0;
     left: 0;
