@@ -808,3 +808,9 @@ input[type="checkbox"]:checked + .modal-span{
 .modal-span-a {
     color: #4d5ae5;
 }
+
+.modal-form-privacy:checked + .modal-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
