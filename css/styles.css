@@ -804,12 +804,8 @@ fill: #ffffff
 .modal-form-privacy:checked + .modal-span {
     background-color: #404bbf;
     border: none;
-    
+    fill: #F4F4FD;
 
-}
-
-.modal-form-privacy:checked + .modal-span .span-svg {
-fill: #F4F4FD;
 }
 
 .modal-span-a {
