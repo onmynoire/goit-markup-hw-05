@@ -799,19 +799,19 @@ fill: #ffffff
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type="checkbox"]:checked + .modal-span {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
 
-}
-
-.modal-span-a {
-    color: #4d5ae5;
-}
 
 .modal-form-privacy:checked + .modal-span {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    
+
+}
+
+.modal-form-privacy:checked + .modal-span .span-svg {
+fill: #F4F4FD;
+}
+
+.modal-span-a {
+    color: #4d5ae5;
 }
