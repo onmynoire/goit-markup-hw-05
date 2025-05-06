@@ -675,7 +675,8 @@ border: none;
 
 }
 
-.modal-svg:hover, .modal-svg:focus {
+.modal-button:hover .modal-svg,
+.modal-button:focus .modal-svg {
 fill: #ffffff
 }
 
